@@ -1,6 +1,7 @@
 :root {
     --tifany:#1DE9B6;
     --light-tifany: #B2DFDB;
+    --orange-10: #ff7320;
     --light-orange-20:#ffac7b;
     --light-orange-10:#ffcd7b;
     --light-orange:#ffaa20;
@@ -46,7 +47,7 @@
     top: -7px !important;
     background: var(--light-blue)!important;
     -webkit-box-shadow: none !important;
-            box-shadow: non !important;
+            box-shadow: none !important;
     color: var(--white)!important;
     padding: 2px 6px!important;
   }
@@ -79,7 +80,7 @@
 }
 .cluster:last-child{
     background: var(--light-orange-10)!important;
-    border: 6px dashed red!important;
+    border: 6px dashed var(--o)!important;
 }
 
 /* .totalClusters3 .pinColor3 {}
