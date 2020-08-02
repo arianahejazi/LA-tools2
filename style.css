@@ -46,7 +46,9 @@
     top: -7px !important;
     background: var(--light-blue)!important;
     -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+            box-shadow: non !important;
+    color: var(--white)!important;
+    padding: 2px 6px!important;
   }
 
   .cluster .clusterHint {
@@ -58,21 +60,32 @@
     display: inline-block !important;
     width: 30%!important;
     text-align: center!important;
-    border: 2.5px dashed var(--light-black)!important;
-    border-radius: 16px!important;
+    height: 53px !important;
+    border-radius: 0 30px 30px 0 !important;
+    left: 0 !important;
+    padding: 15px !important;
+    box-shadow: 0px 0px 5px 0px var(--light-black) !important;
 }
 
 .cluster:first-child{
     background: var(--light-orange-20)!important;
+    border: 6px dashed red!important;
 }
 .cluster:nth-child(2){
     background: var(--light-blue-10)!important;
+    border-left: 6px dashed red!important;
+    border-right: 6px dashed red!important;
+
 }
-.cluster:first-child{
+.cluster:last-child{
     background: var(--light-orange-10)!important;
+    border: 6px dashed red!important;
 }
 
-.totalClusters3 .pinColor3 ,  .totalClusters3 .pinColor2 ,.totalClusters .pinColor1{
+/* .totalClusters3 .pinColor3 {}
+ .totalClusters3 .pinColor2 ,.totalClusters .pinColor1, */
+
+.pinColor1{
     background: none !important;
 }
 
