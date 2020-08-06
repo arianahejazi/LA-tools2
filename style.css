@@ -70,18 +70,15 @@
 
 .cluster:first-child{
     background: var(--light-orange-20)!important;
-    border: 6px dashed red!important;
 }
 .cluster:nth-child(2){
     background: var(--light-blue-10)!important;
-    border-left: 6px dashed red!important;
-    border-right: 6px dashed red!important;
-
 }
 .cluster:last-child{
-    background: var(--light-orange-10)!important;
-    border: 6px dashed var(--o)!important;
+    background: var(--light-red)!important;
 }
+
+
 
 /* .totalClusters3 .pinColor3 {}
  .totalClusters3 .pinColor2 ,.totalClusters .pinColor1, */
