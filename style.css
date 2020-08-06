@@ -52,7 +52,7 @@
     padding: 2px 6px!important;
   }
 
-  .cluster .clusterHint {
+.cluster .clusterHint {
     background: var(--white)!important;
     padding: 1.5%!important;
     border-radius: 50px!important;
@@ -61,30 +61,23 @@
     display: inline-block !important;
     width: 30%!important;
     text-align: center!important;
-    height: 53px !important;
     border-radius: 0 30px 30px 0 !important;
     left: 0 !important;
     padding: 15px !important;
-    box-shadow: 0px 0px 5px 0px var(--light-black) !important;
+    -webkit-box-shadow: 0px 0px 5px 0px var(--light-black) !important;
+            box-shadow: 0px 0px 5px 0px var(--light-black) !important;
 }
 
 .cluster:first-child{
     background: var(--light-orange-20)!important;
 }
+
 .cluster:nth-child(2){
     background: var(--light-blue-10)!important;
 }
+
 .cluster:last-child{
     background: var(--light-red)!important;
-}
-
-
-
-/* .totalClusters3 .pinColor3 {}
- .totalClusters3 .pinColor2 ,.totalClusters .pinColor1, */
-
-.pinColor1{
-    background: none !important;
 }
 
 .cluster img{
@@ -99,18 +92,6 @@
 .card.correct {
     border:2px solid var(--light-green)!important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .newcard  .card .pin{
@@ -216,6 +197,6 @@
         -ms-user-select: none;
             user-select: none;
     background: -o-linear-gradient(top, var(--white),var(--black));
-    background: -webkit-gradient(linear, left top, left bottom, from(var(--white),var(--black)));
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--white)),to(var(--black)));
     background: linear-gradient(to bottom, var(--white),var(--black));
 }
