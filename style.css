@@ -68,15 +68,15 @@
             box-shadow: 0px 0px 5px 0px var(--light-black) !important;
 }
 
-.cluster:first-child , .pinColor1{
+.cluster:first-child ,.totalClusters1 .pinColor1{
     background: var(--light-orange-20)!important;
 }
 
-.cluster:nth-child(2) , .pinColor2{
+.cluster:nth-child(2) ,.totalClusters2 .pinColor2{
     background: var(--light-blue-10)!important;
 }
 
-.cluster:last-child , .pinColor3 {
+.cluster:last-child ,.totalClusters3 .pinColor3 {
     background: var(--light-red)!important;
 }
 
