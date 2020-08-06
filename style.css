@@ -68,17 +68,18 @@
             box-shadow: 0px 0px 5px 0px var(--light-black) !important;
 }
 
-.cluster:first-child{
+.cluster:first-child , .pinColor1{
     background: var(--light-orange-20)!important;
 }
 
-.cluster:nth-child(2){
+.cluster:nth-child(2) , .pinColor2{
     background: var(--light-blue-10)!important;
 }
 
-.cluster:last-child{
+.cluster:last-child , .pinColor3 {
     background: var(--light-red)!important;
 }
+
 
 .cluster img{
     display: none !important;
