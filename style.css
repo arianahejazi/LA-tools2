@@ -21,8 +21,11 @@
     --red:#fd7a91;
   }
 
+    body{
+        font-family: sans-serif !important;
+    }
+
   .card{
-    font-family: monospace!important;
     color: var(--light-black)!important;
     border: 1px solid var(--light-gray)!important;
     -webkit-box-shadow: none!important;
@@ -57,7 +60,6 @@
     padding: 1.5%!important;
     border-radius: 50px!important;
     font-weight: bold!important;
-    font-family: monospace!important;
     display: inline-block !important;
     width: 30%!important;
     text-align: center!important;
