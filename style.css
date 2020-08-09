@@ -17,6 +17,7 @@
     --black: #000000;
     --light-green-10: #edf9ec;
     --light-green:#b0e4b4;
+    --green-10:#7cb380;
     --dark-green:#3b533d;
     --light-red:#ffacaa;
     --red:#fd7a91;
@@ -85,8 +86,8 @@
 
 
     .card.correct {
-        border: 2px solid var(--light-green)!important;
-        background :var(--light-green)!important;
+        border: 2px solid var(--green-10)!important;
+        background: var(--light-green)!important;
     }
     
 
@@ -111,6 +112,8 @@
     border: 2px solid var(--red)!important;
     background: var(--light-red)!important;
 }
+
+
 
 /* hide modal */
 .card .playMediaBtn {
