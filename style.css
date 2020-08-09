@@ -71,18 +71,15 @@
 }
 
 .cluster:first-child ,.totalClusters3 .pinColor1{
-    background: var(--light-orange-20)!important;
     border: 2px solid var(--white);
 }
 
 .cluster:nth-child(2) ,.totalClusters3 .pinColor2{
-    background: var(--light-blue-10)!important;
-        border: 2px solid var(--white);
+    border: 2px solid var(--white);
 }
 
 .cluster:last-child ,.totalClusters3 .pinColor3 {
-    background: var(--light-red)!important;
-        border: 2px solid var(--white);
+    border: 2px solid var(--white);
 }
 
 
