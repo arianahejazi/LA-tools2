@@ -86,7 +86,7 @@
 
     .card.correct {
         border: 2px solid var(--light-green)!important;
-        background :var(--light-green-10)!important;
+        background :var(--light-green)!important;
     }
     
 
