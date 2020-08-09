@@ -15,6 +15,7 @@
     --white : #ffffff;
     --light-black :#353535;
     --black: #000000;
+    --light-green-10: #edf9ec;
     --light-green:#b0e4b4;
     --dark-green:#3b533d;
     --light-red:#ffacaa;
@@ -82,11 +83,12 @@
     background: var(--light-red)!important;
 }
 
-.card.correct {
-    border:2px solid var(--light-green)!important;
-        background: var(--light-red)!important;
 
-}
+    .card.correct {
+        border: 2px solid var(--light-green)!important;
+        background :var(--light-green-10)!important;
+    }
+    
 
 
 .newcard  .card .pin{
